@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="64d8caa683dfd610fae1caa6feaad3aa" label="Training Schedules" max_length="40" name="x_1488662_rsvp_t_0_training_schedules" type="collection">
+        <element label="Training day" max_length="40" name="training_day" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Available seats" max_length="40" name="available_seats" type="string"/>
+        <element label="Course Name" max_length="32" name="course_name" reference="x_1488662_rsvp_t_0_courses" type="reference"/>
+        <element label="Max Capacity" max_length="40" name="max_capacity" type="integer"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="course_name"/>
+        </index>
+        <index name="index2">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d33aca2a83dfd610fae1caa6feaad31f" extends="task" label="Course Enrollments" max_length="40" name="x_1488662_rsvp_t_0_course_enrollments" type="collection">
+        <element label="Instructor" max_length="32" name="instructor" reference="x_1488662_rsvp_t_0_training_schedules" type="reference"/>
+        <element label="Course Name" max_length="32" name="course_name" reference="x_1488662_rsvp_t_0_training_schedules" type="reference"/>
+        <element label="Integration Error Message" max_length="40" name="integration_error_message" type="string"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Training Day" max_length="32" name="training_day" reference="x_1488662_rsvp_t_0_training_schedules" type="reference"/>
+        <element choice="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integrating" sequence="0" value="integrating"/>
+                <element inactive_on_update="false" label="Interation Successful" sequence="2" value="interation_successful"/>
+                <element inactive_on_update="false" label="Integration Error" sequence="1" value="integration_error"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="integration_state" table="x_1488662_rsvp_t_0_course_enrollments" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>integration_state</element>
+            <name>x_1488662_rsvp_t_0_course_enrollments</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-27 18:37:08</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>integration_state</sys_name>
+            <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+            <sys_update_name>sys_choice_x_1488662_rsvp_t_0_course_enrollments_integration_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-27 18:37:08</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>integration_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integrating</label>
+            <language>en</language>
+            <name>x_1488662_rsvp_t_0_course_enrollments</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-27 18:37:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-27 18:37:08</sys_updated_on>
+            <value>integrating</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>integration_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integration Error</label>
+            <language>en</language>
+            <name>x_1488662_rsvp_t_0_course_enrollments</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-27 18:37:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-27 18:37:08</sys_updated_on>
+            <value>integration_error</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>integration_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Interation Successful</label>
+            <language>en</language>
+            <name>x_1488662_rsvp_t_0_course_enrollments</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-27 18:37:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-27 18:37:08</sys_updated_on>
+            <value>interation_successful</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
