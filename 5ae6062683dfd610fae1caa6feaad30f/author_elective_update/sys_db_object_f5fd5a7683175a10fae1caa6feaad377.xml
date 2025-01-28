@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>150</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1488662_rsvp_t_0_150</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 14:36:21</sys_created_on>
+        <sys_id>f5fd5a7683175a10fae1caa6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>150</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_update_name>sys_db_object_f5fd5a7683175a10fae1caa6feaad377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 14:36:21</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</application>
+        <file_path/>
+        <instance_id>81037f27dbb9f99038f117291396194d</instance_id>
+        <instance_name>dev188274</instance_name>
+        <name>sys_db_object_f5fd5a7683175a10fae1caa6feaad377</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>150</label><live_feed_enabled>false</live_feed_enabled><name>x_1488662_rsvp_t_0_150</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-28 14:36:21</sys_created_on><sys_id>f5fd5a7683175a10fae1caa6feaad377</sys_id><sys_mod_count>0</sys_mod_count><sys_name>150</sys_name><sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package><sys_policy/><sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope><sys_update_name>sys_db_object_f5fd5a7683175a10fae1caa6feaad377</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-28 14:36:21</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1663820730</payload_hash>
+        <record_name>150</record_name>
+        <reverted_from/>
+        <source>54e892aa83131a10fae1caa6feaad3db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 14:36:22</sys_created_on>
+        <sys_id>0efd56f683175a10fae1caa6feaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194ad57887c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 14:36:22</sys_updated_on>
+        <type>Table</type>
+        <update_guid>02fd56f6be175a100c29603aec00cadc</update_guid>
+        <update_guid_history>02fd56f6be175a100c29603aec00cadc:-1663820730</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:18:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>e23887138c784c2690b966925db7db84</sys_id>
+        <sys_metadata>f5fd5a7683175a10fae1caa6feaad377</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>150</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_scope_delete display_value="">59d63e13744b4134a7ee38fd9c983a90</sys_scope_delete>
+        <sys_update_name>sys_db_object_f5fd5a7683175a10fae1caa6feaad377</sys_update_name>
+        <sys_update_version display_value="sys_db_object_f5fd5a7683175a10fae1caa6feaad377">0efd56f683175a10fae1caa6feaad3dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:18:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

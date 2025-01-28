@@ -5,12 +5,12 @@
         <cat_item display_value="Request Training">ea7733aa83d71a10fae1caa6feaad378</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field>course_day</choice_field>
-        <choice_table>x_1488662_rsvp_t_0_training_schedules</choice_table>
+        <choice_field/>
+        <choice_table/>
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>javascript:gs.getUserDisplayName();</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -22,34 +22,34 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>course_day</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>true</include_none>
+        <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table>x_1488662_rsvp_t_0_training_schedules</list_table>
+        <list_table/>
         <lookup_label/>
         <lookup_price/>
-        <lookup_table>x_1488662_rsvp_t_0_training_schedules</lookup_table>
+        <lookup_table/>
         <lookup_unique>false</lookup_unique>
-        <lookup_value>course_day</lookup_value>
+        <lookup_value/>
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>course_day</name>
+        <name>resquested_for</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>200</order>
+        <order/>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Pick one Course</question_text>
+        <question_text>Resquested for</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -57,11 +57,9 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_1488662_rsvp_t_0_course_enrollments</record_producer_table>
-        <reference>x_1488662_rsvp_t_0_training_schedules</reference>
-        <reference_qual>max_capacity_reached=false</reference_qual>
-        <reference_qual_condition table="x_1488662_rsvp_t_0_training_schedules">max_capacity_reached=false^EQ<item endquery="false" field="max_capacity_reached" goto="false" newquery="false" operator="=" or="false" value="false"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -79,24 +77,24 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-28 02:31:48</sys_created_on>
-        <sys_id>8ca77f2a83d71a10fae1caa6feaad3e1</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_name>Pick one Course</sys_name>
+        <sys_created_on>2025-01-28 20:24:31</sys_created_on>
+        <sys_id>d44d637a839b5a10fae1caa6feaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resquested for</sys_name>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
-        <sys_update_name>item_option_new_8ca77f2a83d71a10fae1caa6feaad3e1</sys_update_name>
+        <sys_update_name>item_option_new_d44d637a839b5a10fae1caa6feaad3b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 22:17:47</sys_updated_on>
+        <sys_updated_on>2025-01-28 20:24:31</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>18</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
@@ -108,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=8ca77f2a83d71a10fae1caa6feaad3e1"/>
-    <fx_price action="delete_multiple" query="id=8ca77f2a83d71a10fae1caa6feaad3e1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d44d637a839b5a10fae1caa6feaad3b1"/>
+    <fx_price action="delete_multiple" query="id=d44d637a839b5a10fae1caa6feaad3b1"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>8ca77f2a83d71a10fae1caa6feaad3e1</id>
+        <id>d44d637a839b5a10fae1caa6feaad3b1</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-28 02:31:48</sys_created_on>
-        <sys_id>d828736e83d71a10fae1caa6feaad32d</sys_id>
+        <sys_created_on>2025-01-28 20:24:31</sys_created_on>
+        <sys_id>3dad637a839b5a10fae1caa6feaad3e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 02:31:48</sys_updated_on>
+        <sys_updated_on>2025-01-28 20:24:31</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -131,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>8ca77f2a83d71a10fae1caa6feaad3e1</id>
+        <id>d44d637a839b5a10fae1caa6feaad3b1</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-28 02:31:48</sys_created_on>
-        <sys_id>d028bb2e83d71a10fae1caa6feaad3dc</sys_id>
+        <sys_created_on>2025-01-28 20:24:31</sys_created_on>
+        <sys_id>f5ad637a839b5a10fae1caa6feaad3e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 02:31:48</sys_updated_on>
+        <sys_updated_on>2025-01-28 20:24:31</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

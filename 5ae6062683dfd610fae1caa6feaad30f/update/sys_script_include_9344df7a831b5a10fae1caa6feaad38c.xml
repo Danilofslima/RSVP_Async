@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1488662_rsvp_t_0.AjaxCheckDateSI</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AjaxCheckDateSI</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[// var AjaxCheckDateSI = Class.create();
+// AjaxCheckDateSI.prototype = Object.extendsObject(global.AbstractAjaxCheckDateSIProcessor, {
+
+//     checkUserRequest: function() {
+//         var checkDate = this.getParameter('sysparm_date'); // Get the date parameter
+//         gs.info('Date: ' + checkDate);
+// 		console('Date: ' + checkDate);
+		
+//         var parts = checkDate.split('/'); // ["31", "01", "2025"]
+//         var formattedDate = parts[2] + '-' + parts[1] + '-' + parts[0];
+		
+//         var requests = [];
+
+//         var grAjaxCheckDateSI = new GlideRecord('x_1488662_rsvp_t_0_training_schedules');
+//         grAjaxCheckDateSI.addActiveQuery();
+
+//         // Filtrar registros com a data especificada
+//         // Aqui usamos 'gs.dateGenerate' para considerar a data exata
+//         grAjaxCheckDateSI.addEncodedQuery(
+//             `training_dayON${formattedDate}@javascript:gs.dateGenerate('${formattedDate}','start')@javascript:gs.dateGenerate('${formattedDate}','end')`
+//         );
+//         grAjaxCheckDateSI.query();
+
+//         while (grAjaxCheckDateSI.next()) {
+//             requests.push(grAjaxCheckDateSI.number.toString()); // Add the 'number' field to the results
+//         }
+// 		// console(requests);
+//         // Return the results as a comma-separated list or 'none' if no matches
+//         // return requests.length > 0 ? requests.join(',') : 'none';
+// 		// return JSON.stringify(requests);
+// 		if (requests.length > 0) {
+// 			return requests.join(',');
+// 		} else {
+// 			return 'none';
+// 		}
+		
+// 		// return requests.join(',');
+//     },
+
+//     type: 'AjaxCheckDateSI'
+// });
+
+
+var AjaxCheckDateSI = Class.create();
+AjaxCheckDateSI.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    checkUserRequest: function() {
+        var checkDate = this.getParameter('sysparm_date');
+        if (!checkDate) {
+            gs.error('No date provided');
+            return 'Invalid input';
+        }
+
+        gs.info('Received date: ' + checkDate);
+
+        var requests = [];
+        var grAjaxCheckDateSI = new GlideRecord('x_1488662_rsvp_t_0_training_schedules');
+        grAjaxCheckDateSI.addActiveQuery();
+        grAjaxCheckDateSI.addQuery('training_day', '=', checkDate); // Exact match for date
+        grAjaxCheckDateSI.query();
+
+        while (grAjaxCheckDateSI.next()) {
+            requests.push(grAjaxCheckDateSI.number.toString()); // Collect 'number' field
+        }
+
+        return requests.length > 0 ? requests.join(',') : 'none';
+    },
+
+    type: 'AjaxCheckDateSI'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:45:02</sys_created_on>
+        <sys_id>9344df7a831b5a10fae1caa6feaad38c</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>AjaxCheckDateSI</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_update_name>sys_script_include_9344df7a831b5a10fae1caa6feaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 21:40:45</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>9344df7a831b5a10fae1caa6feaad38c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:45:01</sys_created_on>
+        <sys_id>90e6577a831b5a10fae1caa6feaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:45:01</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
