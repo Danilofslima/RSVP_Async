@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Training enrollment ">8e2de6e283931a10fae1caa6feaad334</sc_cat_item>
+        <sc_catalog display_value="HR Refund">39b4d218835396105afc5855eeaad3de</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 21:17:15</sys_created_on>
+        <sys_id>6020fea683931a10fae1caa6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Refund.Training enrollment </sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6020fea683931a10fae1caa6feaad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 21:17:15</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</application>
+        <file_path/>
+        <instance_id>81037f27dbb9f99038f117291396194d</instance_id>
+        <instance_name>dev188274</instance_name>
+        <name>sc_cat_item_catalog_6020fea683931a10fae1caa6feaad37e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Training enrollment ">8e2de6e283931a10fae1caa6feaad334</sc_cat_item><sc_catalog display_value="HR Refund">39b4d218835396105afc5855eeaad3de</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 21:17:15</sys_created_on><sys_id>6020fea683931a10fae1caa6feaad37e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Refund.Training enrollment </sys_name><sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package><sys_policy/><sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope><sys_update_name>sc_cat_item_catalog_6020fea683931a10fae1caa6feaad37e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-27 21:17:15</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>859082573</payload_hash>
+        <record_name>HR Refund.Training enrollment </record_name>
+        <reverted_from/>
+        <source>54e892aa83131a10fae1caa6feaad3db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 21:17:15</sys_created_on>
+        <sys_id>6020fea683931a10fae1caa6feaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a9a030830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 21:17:15</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>6420fea6c2931a10be2a403af5864a85</update_guid>
+        <update_guid_history>6420fea6c2931a10be2a403af5864a85:859082573</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR Refund.Training enrollment ">214072e683931a10fae1caa6feaad336</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 21:17:52</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>87a5cc32a83a43148daf8c8f7272df90</sys_id>
+        <sys_metadata>6020fea683931a10fae1caa6feaad37e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Refund.Training enrollment </sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_parent display_value="Training enrollment ">8e2de6e283931a10fae1caa6feaad334</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_scope_delete display_value="">59d63e13744b4134a7ee38fd9c983a90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_6020fea683931a10fae1caa6feaad37e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_6020fea683931a10fae1caa6feaad37e">6020fea683931a10fae1caa6feaad386</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 21:17:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

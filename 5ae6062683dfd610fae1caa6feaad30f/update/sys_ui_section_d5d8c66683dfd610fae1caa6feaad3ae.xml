@@ -4,55 +4,97 @@
             <element>course_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 18:30:08</sys_created_on>
-            <sys_id>28e9c22a83dfd610fae1caa6feaad382</sys_id>
+            <sys_created_on>2025-01-27 20:04:16</sys_created_on>
+            <sys_id>176f5aa283531a10fae1caa6feaad3b2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_rsvp_t_0_training_schedules" sys_domain="global" view="Default view">d5d8c66683dfd610fae1caa6feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 18:30:08</sys_updated_on>
+            <sys_updated_on>2025-01-27 20:04:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>training_day</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-27 20:04:16</sys_created_on>
+            <sys_id>9b6f5aa283531a10fae1caa6feaad3b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_rsvp_t_0_training_schedules" sys_domain="global" view="Default view">d5d8c66683dfd610fae1caa6feaad3ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-27 20:04:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>instructor</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 18:30:08</sys_created_on>
-            <sys_id>ace9c22a83dfd610fae1caa6feaad382</sys_id>
+            <sys_created_on>2025-01-27 20:04:16</sys_created_on>
+            <sys_id>136f5aa283531a10fae1caa6feaad3b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_rsvp_t_0_training_schedules" sys_domain="global" view="Default view">d5d8c66683dfd610fae1caa6feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 18:30:08</sys_updated_on>
+            <sys_updated_on>2025-01-27 20:04:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>max_capacity</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 18:30:08</sys_created_on>
-            <sys_id>24e9c22a83dfd610fae1caa6feaad383</sys_id>
+            <sys_created_on>2025-01-27 20:04:16</sys_created_on>
+            <sys_id>976f5aa283531a10fae1caa6feaad3b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_rsvp_t_0_training_schedules" sys_domain="global" view="Default view">d5d8c66683dfd610fae1caa6feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 18:30:08</sys_updated_on>
+            <sys_updated_on>2025-01-27 20:04:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>available_seats</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 18:30:08</sys_created_on>
-            <sys_id>a8e9c22a83dfd610fae1caa6feaad383</sys_id>
+            <sys_created_on>2025-01-27 20:04:16</sys_created_on>
+            <sys_id>1f6f5aa283531a10fae1caa6feaad3b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_rsvp_t_0_training_schedules" sys_domain="global" view="Default view">d5d8c66683dfd610fae1caa6feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 18:30:08</sys_updated_on>
+            <sys_updated_on>2025-01-27 20:04:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>course_day</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-28 01:53:27</sys_created_on>
+            <sys_id>2e5fe72283d71a10fae1caa6feaad398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_rsvp_t_0_training_schedules" sys_domain="global" view="Default view">d5d8c66683dfd610fae1caa6feaad3ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-28 01:53:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>max_capacity_reached</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-28 11:22:35</sys_created_on>
+            <sys_id>d3917dbe83135a10fae1caa6feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_rsvp_t_0_training_schedules" sys_domain="global" view="Default view">d5d8c66683dfd610fae1caa6feaad3ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-28 11:22:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
