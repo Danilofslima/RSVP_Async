@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1488662_rsvp_t_0.RsvpUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>RsvpUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var RsvpUtils = Class.create();
+RsvpUtils.prototype = {
+    initialize: function() {},
+
+    refQualTask7: function() {
+        var rsvpNotToBeShown = [];
+        var grRsvpList = new GlideRecord('x_1488662_rsvp_t_0_course_enrollments');
+        grRsvpList.addQuery("opened_by", gs.getUserID()); // Treinamentos que o usuário já está cadastrado
+        grRsvpList.addQuery("course_day", '!=', ""); // Evita registros sem data
+        grRsvpList.query();
+
+        while (grRsvpList.next()) {
+            rsvpNotToBeShown.push(grRsvpList.course_day.toString()); // Armazena os `course_day`
+            // rsvpNotToBeShown.push(grRsvpList.course_name.toString()); // Armazena os `course_day`
+        }
+
+        var rsvpToBeShown = [];
+        var grSchedule = new GlideRecord("x_1488662_rsvp_t_0_training_schedules");
+        grSchedule.query('max_capacity_reached', 'False'); // Filtra os treinamentos que ainda tem vagas
+        // Filtra para pegar apenas cursos que o usuário ainda pode se inscrever
+        grSchedule.query();
+
+        while (grSchedule.next()) {
+            var scheduleDay = grSchedule.course_day.toString(); // Pegando o mesmo campo usado na verificação
+            if (rsvpNotToBeShown.indexOf(scheduleDay) === -1) {
+                rsvpToBeShown.push(grSchedule.getUniqueValue());
+            }
+        }
+
+        return "sys_idIN" + rsvpToBeShown.join(",");
+    },
+
+    type: 'RsvpUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 13:47:22</sys_created_on>
+        <sys_id>47f4b60b835b9a10fae1caa6feaad30a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>RsvpUtils</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_update_name>sys_script_include_47f4b60b835b9a10fae1caa6feaad30a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 13:48:07</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>47f4b60b835b9a10fae1caa6feaad30a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 13:47:22</sys_created_on>
+        <sys_id>795cdb03831f9a10fae1caa6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 13:47:22</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

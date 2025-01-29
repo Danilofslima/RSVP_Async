@@ -49,7 +49,7 @@
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Resquested for</question_text>
+        <question_text>Logged in as</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-28 20:24:31</sys_created_on>
         <sys_id>d44d637a839b5a10fae1caa6feaad3b1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Resquested for</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Logged in as</sys_name>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name>item_option_new_d44d637a839b5a10fae1caa6feaad3b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 20:24:31</sys_updated_on>
+        <sys_updated_on>2025-01-29 15:04:41</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
