@@ -8,8 +8,16 @@
         <element label="Description in en_UK" max_length="4000" name="description_in_en_uk" type="string"/>
         <element label="Description in pt_BR" max_length="4000" name="descriptoon_in_pt_br" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    // Safely get field values and handle null/undefined&#13;&#10;    var courseName = current.course_name.course_name.toString(); // Get course name or empty string&#13;&#10;    var trainingDay = current.training_day.toString(); // Get training day or empty string&#13;&#10;&#13;&#10;    var formattedDate = &quot;&quot;;&#13;&#10;&#13;&#10;    // Format the date if trainingDay is not empty&#13;&#10;    if (trainingDay) {&#13;&#10;        // Split the date into components&#13;&#10;        var parts = trainingDay.split(&quot;-&quot;); // [&quot;2025&quot;, &quot;01&quot;, &quot;29&quot;]&#13;&#10;        if (parts.length === 3) {&#13;&#10;            // Rearrange and join in the desired format&#13;&#10;            formattedDate = parts[2] + &quot;/&quot; + parts[1] + &quot;/&quot; + parts[0]; // &quot;29/01/2025&quot;&#13;&#10;        }&#13;&#10;    }&#13;&#10;&#13;&#10;    // Concatenate course name with formatted date&#13;&#10;    var fullString = courseName + &quot; (&quot; + formattedDate + &quot;)&quot;;&#13;&#10;&#13;&#10;    // Return the calculated value&#13;&#10;    return fullString;&#13;&#10;&#13;&#10;})(current);&#13;&#10;" default="javascript: current.course_name+ &quot; ( &quot; + current.training_day + &quot; )&quot;;" label="Course  (day)" max_length="100" name="course_day" type="string" virtual="true"/>
+        <element label="Integration Error Message" max_length="40" name="integration_error_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Available seats" max_length="40" name="available_seats" type="string"/>
+        <element choice="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integrating" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Integration error" sequence="200" value="7"/>
+                <element inactive_on_update="false" label="Integrated Successfully" sequence="300" value="3"/>
+            </choice>
+        </element>
         <element display="true" label="Course Name" max_length="32" name="course_name" reference="x_1488662_rsvp_t_0_courses" type="reference"/>
         <element label="Max Capacity" max_length="40" name="max_capacity" type="integer"/>
         <element dependent="assigment_group" dependent_on_field="assigment_group" label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference" use_dependent_field="true"/>

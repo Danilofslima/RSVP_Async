@@ -47,8 +47,8 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
-        <field_list>course_day,opened_by,opened_by.email,opened_by.mobile_phone</field_list>
-        <filter table="x_1488662_rsvp_t_0_course_enrollments">course_name.sys_id=b62fd2a283531a10fae1caa6feaad392<item endquery="false" field="course_name.sys_id" goto="false" newquery="false" operator="=" or="false" value="b62fd2a283531a10fae1caa6feaad392"/>
+        <field_list>number,course_name,training_day,course_day,description,instructor,opened_by,state</field_list>
+        <filter table="x_1488662_rsvp_t_0_course_enrollments">course_name.training_dayONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()<item endquery="false" field="course_name.training_day" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -59,7 +59,7 @@
         <interval>year</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
-        <is_scheduled>false</is_scheduled>
+        <is_scheduled>true</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
         <legend_background_color/>
         <legend_border_color/>
@@ -107,18 +107,18 @@
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 19:58:58</sys_created_on>
-        <sys_id>5561b09b8393da10fae1caa6feaad3f6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>RSVP List CSA Fundamentals (29/01/2025)</sys_name>
+        <sys_created_on>2025-01-30 18:18:29</sys_created_on>
+        <sys_id>cbf36d67839b1e10fae1caa6feaad339</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>RSVP List of Enrolled in Courses</sys_name>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
-        <sys_update_name>sys_report_5561b09b8393da10fae1caa6feaad3f6</sys_update_name>
+        <sys_update_name>sys_report_cbf36d67839b1e10fae1caa6feaad339</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-30 19:10:42</sys_updated_on>
         <table>x_1488662_rsvp_t_0_course_enrollments</table>
-        <title>RSVP List CSA Fundamentals (29/01/2025)</title>
+        <title>RSVP List of Enrolled in Courses</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
