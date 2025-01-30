@@ -14,23 +14,24 @@
         <copied_from_name/>
         <description/>
         <flow_priority/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>openl_integration</internal_name>
-        <label_cache>[{"name":"{{action.descriptionpt}}","label":"action➛DescriptionPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"a48f1783-5b41-4917-ade2-0c1246addfed"}},{"name":"{{action.texten}}","label":"action➛TextEn","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.x_rapidapi_host}}","label":"action➛x-rapidapi-host","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"04949de7-4532-4310-84d1-fb4cfeddb991"}},{"name":"{{action.x_rapidapi_key}}","label":"action➛x-rapidapi-key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"1ceaa46d-20bb-4fb7-a3d8-6701c8c258ca"}},{"name":"{{action.endpint}}","label":"action➛Endpint","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"f1f9f346-88cc-44df-8934-4eebeb5cdc96"}},{"name":"{{step[a4413bfb-8e6f-4061-b00a-42d6203499bb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[8cb5b67d-c00a-43f8-9388-a26aa15cc32b].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDdbbcb85badd3da10de783ff7ebe92567","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"7d87567e-0ccf-4f4f-8d7b-e3d720695b04"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].endpoint}}","label":"step➛Script step➛endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b27d7954-2c08-4263-8613-b8b2fb5b47e2"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].type}}","label":"step➛Script step➛type","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"97d45830-1c7d-4214-9b87-f92b7159cfd6"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].host}}","label":"step➛Script step➛host","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"db86a532-92cf-4985-a050-0a19a8b3ccac"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].apikey}}","label":"step➛Script step➛apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ee87c068-2ac9-4436-b077-3b9b590237e3"}}]</label_cache>
+        <label_cache>[{"name":"{{action.descriptionpt}}","label":"action➛DescriptionPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"a48f1783-5b41-4917-ade2-0c1246addfed"}},{"name":"{{action.texten}}","label":"action➛TextEn","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.x_rapidapi_host}}","label":"action➛x-rapidapi-host","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"04949de7-4532-4310-84d1-fb4cfeddb991"}},{"name":"{{action.x_rapidapi_key}}","label":"action➛x-rapidapi-key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"1ceaa46d-20bb-4fb7-a3d8-6701c8c258ca"}},{"name":"{{action.endpint}}","label":"action➛Endpint","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"f1f9f346-88cc-44df-8934-4eebeb5cdc96"}},{"name":"{{step[a4413bfb-8e6f-4061-b00a-42d6203499bb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[8cb5b67d-c00a-43f8-9388-a26aa15cc32b].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDdbbcb85badd3da10de783ff7ebe92567","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"7d87567e-0ccf-4f4f-8d7b-e3d720695b04"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].endpoint}}","label":"step➛Script step➛endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b27d7954-2c08-4263-8613-b8b2fb5b47e2"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].type}}","label":"step➛Script step➛type","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"97d45830-1c7d-4214-9b87-f92b7159cfd6"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].host}}","label":"step➛Script step➛host","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"db86a532-92cf-4985-a050-0a19a8b3ccac"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].apikey}}","label":"step➛Script step➛apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ee87c068-2ac9-4436-b077-3b9b590237e3"}},{"name":"{{step[8fc7cd38-d1aa-46bb-807a-beed42f80c1f].entext}}","label":"step➛Script step➛EnText","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"56eaa76c-a689-43eb-a97e-dfb9fee52143"}}]</label_cache>
         <master_snapshot>1be04ddf83d3da10fae1caa6feaad3ce</master_snapshot>
         <master_snapshot_digest/>
         <name>OpenL Integration</name>
         <natlang/>
         <outputs/>
+        <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 20:30:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>44883cd383d3da10fae1caa6feaad38b</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>OpenL Integration</sys_name>
         <sys_overrides/>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
@@ -38,7 +39,7 @@
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_44883cd383d3da10fae1caa6feaad38b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:41:01</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:43</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -64,6 +65,20 @@
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 23:02:03</sys_created_on>
+        <sys_id>9b4b55538397da10fae1caa6feaad331</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 23:05:07</sys_updated_on>
+        <value/>
+        <variable display_value="TextEn">1d4d749b83d3da10fae1caa6feaad381</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>44883cd383d3da10fae1caa6feaad38b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 20:39:21</sys_created_on>
         <sys_id>fcaa30d783d3da10fae1caa6feaad331</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -72,7 +87,43 @@
         <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="Action Status">b4aa30d783d3da10fae1caa6feaad321</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_44883cd383d3da10fae1caa6feaad38b^id=44883cd383d3da10fae1caa6feaad38b"/>
+    <sys_element_mapping action="delete_multiple" query="id=44883cd383d3da10fae1caa6feaad38b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>texten</field>
+        <id>44883cd383d3da10fae1caa6feaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 20:50:52</sys_created_on>
+        <sys_id>a94d749b83d3da10fae1caa6feaad39e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 23:05:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44883cd383d3da10fae1caa6feaad38b</table>
+        <value>{{step[8fc7cd38-d1aa-46bb-807a-beed42f80c1f].entext}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>44883cd383d3da10fae1caa6feaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 20:39:21</sys_created_on>
+        <sys_id>b8aa30d783d3da10fae1caa6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 20:39:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44883cd383d3da10fae1caa6feaad38b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>44883cd383d3da10fae1caa6feaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 20:39:21</sys_created_on>
+        <sys_id>f4aa30d783d3da10fae1caa6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 20:39:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_44883cd383d3da10fae1caa6feaad38b</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=44883cd383d3da10fae1caa6feaad38b^sys_idNOT IN4ddb381b83d3da10fae1caa6feaad3ea,be2505578317da10fae1caa6feaad3f6,e0aafc9783d3da10fae1caa6feaad3f4,e8aa30d783d3da10fae1caa6feaad303"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="OpenL Integration">44883cd383d3da10fae1caa6feaad38b</action>
@@ -182,7 +233,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dfbcb85b83d3da10fae1caa6feaad367</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -190,7 +241,7 @@
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:41:01</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:40</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -318,10 +369,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 21:25:21</sys_created_on>
         <sys_id>be2505578317da10fae1caa6feaad3f6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:41:01</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:05:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=be2505578317da10fae1caa6feaad3f6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -346,15 +397,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 21:25:21</sys_created_on>
         <sys_id>3a2545578317da10fae1caa6feaad323</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:41:01</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:05:54</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
-   &#13;
-    var textEn = inputs.translatedText;&#13;
-  &#13;
-    outputs.enText = textEn; // Corrigido o erro de digitação&#13;
-&#13;
+    // Verifica se o campo translatedText existe e não é nulo&#13;
+    outputs.entext = inputs.object.translatedText || "No translation available";&#13;
 })(inputs, outputs);&#13;
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -1523,14 +1571,14 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 20:50:51</sys_created_on>
         <sys_id>1d4d749b83d3da10fae1caa6feaad381</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:27:36</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:05:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1697,14 +1745,14 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 20:39:21</sys_created_on>
         <sys_id>bcaa30d783d3da10fae1caa6feaad326</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:41:01</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1831,17 +1879,17 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="OpenL Integration">44883cd383d3da10fae1caa6feaad38b</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"88f08ddf83d3da10fae1caa6feaad3a2","name":"plan","plan_signature":null}}</plan>
-        <snapshot>9935c5578317da10fae1caa6feaad3c4</snapshot>
+        <snapshot>675c51d38397da10fae1caa6feaad30d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 21:06:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>88f08ddf83d3da10fae1caa6feaad3a2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:25:33</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:44</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1858,7 +1906,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <description/>
         <flow_priority/>
         <internal_name>openl_integration</internal_name>
-        <label_cache>[{"name":"{{action.descriptionpt}}","label":"action➛DescriptionPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"a48f1783-5b41-4917-ade2-0c1246addfed"}},{"name":"{{action.texten}}","label":"action➛TextEn","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.x_rapidapi_host}}","label":"action➛x-rapidapi-host","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"04949de7-4532-4310-84d1-fb4cfeddb991"}},{"name":"{{action.x_rapidapi_key}}","label":"action➛x-rapidapi-key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"1ceaa46d-20bb-4fb7-a3d8-6701c8c258ca"}},{"name":"{{action.endpint}}","label":"action➛Endpint","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"f1f9f346-88cc-44df-8934-4eebeb5cdc96"}},{"name":"{{step[a4413bfb-8e6f-4061-b00a-42d6203499bb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[8cb5b67d-c00a-43f8-9388-a26aa15cc32b].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDdbbcb85badd3da10de783ff7ebe92567","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"7d87567e-0ccf-4f4f-8d7b-e3d720695b04"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].endpoint}}","label":"step➛Script step➛endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b27d7954-2c08-4263-8613-b8b2fb5b47e2"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].type}}","label":"step➛Script step➛type","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"97d45830-1c7d-4214-9b87-f92b7159cfd6"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].host}}","label":"step➛Script step➛host","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"db86a532-92cf-4985-a050-0a19a8b3ccac"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].apikey}}","label":"step➛Script step➛apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ee87c068-2ac9-4436-b077-3b9b590237e3"}}]</label_cache>
+        <label_cache>[{"name":"{{action.descriptionpt}}","label":"action➛DescriptionPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.content_type}}","label":"action➛Content-Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"a48f1783-5b41-4917-ade2-0c1246addfed"}},{"name":"{{action.texten}}","label":"action➛TextEn","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.x_rapidapi_host}}","label":"action➛x-rapidapi-host","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"04949de7-4532-4310-84d1-fb4cfeddb991"}},{"name":"{{action.x_rapidapi_key}}","label":"action➛x-rapidapi-key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"1ceaa46d-20bb-4fb7-a3d8-6701c8c258ca"}},{"name":"{{action.endpint}}","label":"action➛Endpint","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"f1f9f346-88cc-44df-8934-4eebeb5cdc96"}},{"name":"{{step[a4413bfb-8e6f-4061-b00a-42d6203499bb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[8cb5b67d-c00a-43f8-9388-a26aa15cc32b].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDdbbcb85badd3da10de783ff7ebe92567","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"7d87567e-0ccf-4f4f-8d7b-e3d720695b04"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].endpoint}}","label":"step➛Script step➛endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b27d7954-2c08-4263-8613-b8b2fb5b47e2"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].type}}","label":"step➛Script step➛type","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"97d45830-1c7d-4214-9b87-f92b7159cfd6"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].host}}","label":"step➛Script step➛host","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"db86a532-92cf-4985-a050-0a19a8b3ccac"}},{"name":"{{step[b66ed6b0-999f-4bcd-9f2e-6cf70335e768].apikey}}","label":"step➛Script step➛apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ee87c068-2ac9-4436-b077-3b9b590237e3"}},{"name":"{{step[8fc7cd38-d1aa-46bb-807a-beed42f80c1f].entext}}","label":"step➛Script step➛EnText","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"56eaa76c-a689-43eb-a97e-dfb9fee52143"}}]</label_cache>
         <master>true</master>
         <name>OpenL Integration</name>
         <natlang/>
@@ -1871,7 +1919,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1be04ddf83d3da10fae1caa6feaad3ce</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1879,7 +1927,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:06:50</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:42</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1920,11 +1968,11 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 21:06:51</sys_created_on>
         <sys_id>73e08ddf83d3da10fae1caa6feaad34d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:06:51</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:43</sys_updated_on>
         <table>var__m_sys_hub_action_output_1be04ddf83d3da10fae1caa6feaad3ce</table>
-        <value>{{step[8cb5b67d-c00a-43f8-9388-a26aa15cc32b].root}}</value>
+        <value>{{step[8fc7cd38-d1aa-46bb-807a-beed42f80c1f].entext}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
@@ -2444,7 +2492,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="OpenL Integration">1be04ddf83d3da10fae1caa6feaad3ce</action>
         <cid>8fc7cd38-d1aa-46bb-807a-beed42f80c1f</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -2458,10 +2506,10 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 21:25:31</sys_created_on>
         <sys_id>1d35c5578317da10fae1caa6feaad395</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:25:31</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1d35c5578317da10fae1caa6feaad395"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2472,16 +2520,14 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 21:25:31</sys_created_on>
         <sys_id>1135c5578317da10fae1caa6feaad3a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:25:31</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:43</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
-    // Extract the BRL value as a string from the input object&#13;
-    var textEn = inputs.object.data.translatedText;&#13;
-  &#13;
-    outputs.tranlatedText = textEn;&#13;
-&#13;
-})(inputs, outputs);</value>
+    // Verifica se o campo translatedText existe e não é nulo&#13;
+    outputs.entext = inputs.object.translatedText || "No translation available";&#13;
+})(inputs, outputs);&#13;
+</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2622,12 +2668,12 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=1d35c5578317da10fae1caa6feaad395^sys_idNOT IN5135c5578317da10fae1caa6feaad39e"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1d35c5578317da10fae1caa6feaad395^sys_idNOT IN2b5c11d38397da10fae1caa6feaad3de"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b1663e70-0749-49f3-ae4d-338a4ec7596f</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=56eaa76c-a689-43eb-a97e-dfb9fee52143</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2651,7 +2697,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>tranlatedtext</element>
+        <element>entext</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -2660,7 +2706,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>tranlatedText</label>
+        <label>EnText</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
         <model display_value="Script step">1d35c5578317da10fae1caa6feaad395</model>
@@ -2684,8 +2730,8 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 21:25:31</sys_created_on>
-        <sys_id>5135c5578317da10fae1caa6feaad39e</sys_id>
+        <sys_created_on>2025-01-29 23:06:42</sys_created_on>
+        <sys_id>2b5c11d38397da10fae1caa6feaad3de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -2693,7 +2739,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:25:31</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2707,19 +2753,19 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1d35c5578317da10fae1caa6feaad395"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1d35c5578317da10fae1caa6feaad395^sys_idNOT IN5135c5578317da10fae1caa6feaad3a1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1d35c5578317da10fae1caa6feaad395^sys_idNOT IN2b5c11d38397da10fae1caa6feaad3e1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>tranlatedtext</element>
+        <element>entext</element>
         <help/>
         <hint/>
-        <label>tranlatedText</label>
+        <label>EnText</label>
         <language>en</language>
         <name>var__m_sys_hub_step_ext_output_1d35c5578317da10fae1caa6feaad395</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 21:25:31</sys_created_on>
-        <sys_id>5135c5578317da10fae1caa6feaad3a1</sys_id>
+        <sys_created_on>2025-01-29 23:06:42</sys_created_on>
+        <sys_id>2b5c11d38397da10fae1caa6feaad3e1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
@@ -2727,7 +2773,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:25:31</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:42</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -3129,7 +3175,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>67e08ddf83d3da10fae1caa6feaad32d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3137,7 +3183,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:25:31</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:42</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -3486,14 +3532,14 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 21:06:51</sys_created_on>
         <sys_id>2fe08ddf83d3da10fae1caa6feaad342</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:25:32</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3508,34 +3554,11 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2fe08ddf83d3da10fae1caa6feaad342"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2fe08ddf83d3da10fae1caa6feaad342"/>
-    <sys_complex_object action="INSERT_OR_UPDATE">
-        <label/>
-        <name>FD6be08ddf5ad3da10595ed798f97db538</name>
-        <namespace>FlowDesigner</namespace>
-        <scope_name>5ae6062683dfd610fae1caa6feaad30f</scope_name>
-        <serialized_content>{"FlowDesigner:FD6be08ddf5ad3da10595ed798f97db538":{"translatedText":"String","translatedText.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"translatedText\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0c86b907-b963-4a27-8cfc-2d28053c9401\"}"},"Error":"String","Error.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Error\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"db3af8ef-a200-4cd4-93a6-e5e014d33a14\"}"}},"FlowDesigner:FD6be08ddf5ad3da10595ed798f97db538.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"8cb5b67d-c00a-43f8-9388-a26aa15cc32b\",\"pwd2droppable\":\"true\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"TextEn\",\"mandatory\":\"false\",\"uiUniqueId\":\"66fe864d-9167-4b7d-a092-e3a057e6f5f0\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD6be08ddf5ad3da10595ed798f97db538\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"7d87567e-0ccf-4f4f-8d7b-e3d720695b04\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
-        <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 21:06:51</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>2fe08ddf83d3da10fae1caa6feaad338</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:25:31</sys_updated_on>
-        <type>complex_object_schema</type>
-    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD6be08ddf5ad3da10595ed798f97db538,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,sourceId=8cb5b67d-c00a-43f8-9388-a26aa15cc32b,sourceType=step,sourceUiUniqueId=7d87567e-0ccf-4f4f-8d7b-e3d720695b04,uiType=object,uiTypeLabel=Object,uiUniqueId=66fe864d-9167-4b7d-a092-e3a057e6f5f0</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=66fe864d-9167-4b7d-a092-e3a057e6f5f0</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3572,7 +3595,7 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <internal_type display_value="String">string</internal_type>
         <label>TextEn</label>
         <mandatory>false</mandatory>
-        <max_length>65000</max_length>
+        <max_length>8000</max_length>
         <model display_value="OpenL Integration">1be04ddf83d3da10fae1caa6feaad3ce</model>
         <model_id>1be04ddf83d3da10fae1caa6feaad3ce</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
@@ -3596,14 +3619,14 @@ outputs.type = gs.getProperty('x_1488662_rsvp_t_0.type');&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 21:06:51</sys_created_on>
         <sys_id>6be08ddf83d3da10fae1caa6feaad339</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 21:06:51</sys_updated_on>
+        <sys_updated_on>2025-01-29 23:06:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

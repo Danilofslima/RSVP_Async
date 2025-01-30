@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="descriptoon_in_pt_br" label="Descriptoon in pt_BR" language="en" table="x_1488662_rsvp_t_0_training_schedules">
+    <sys_documentation element="descriptoon_in_pt_br" label="Description in pt_BR" language="en" table="x_1488662_rsvp_t_0_training_schedules">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>descriptoon_in_pt_br</element>
             <help/>
             <hint/>
-            <label>Descriptoon in pt_BR</label>
+            <label>Description in pt_BR</label>
             <language>en</language>
             <name>x_1488662_rsvp_t_0_training_schedules</name>
-            <plural>Descriptoon in pt_BRs</plural>
+            <plural>Description in pt_BRs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-01-29 21:16:30</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Descriptoon in pt_BR</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Description in pt_BR</sys_name>
             <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
             <sys_policy/>
             <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
             <sys_update_name>sys_documentation_x_1488662_rsvp_t_0_training_schedules_descriptoon_in_pt_br_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-29 21:16:30</sys_updated_on>
+            <sys_updated_on>2025-01-29 23:27:19</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

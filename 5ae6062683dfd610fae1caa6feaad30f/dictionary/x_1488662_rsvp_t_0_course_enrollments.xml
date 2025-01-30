@@ -3,15 +3,7 @@
         <element label="Course (day)" max_length="150" name="course_day" type="string"/>
         <element dependent="course_name" dependent_on_field="course_name" label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference" use_dependent_field="true" use_dynamic_default="true"/>
         <element label="Course Name" max_length="32" name="course_name" reference="x_1488662_rsvp_t_0_training_schedules" type="reference"/>
-        <element label="Integration Error Message" max_length="40" name="integration_error_message" type="string"/>
         <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
         <element label="Training Day" max_length="32" name="training_day" type="string"/>
-        <element choice="1" label="Integration State" max_length="40" name="integration_state" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Integrating" sequence="0" value="integrating"/>
-                <element inactive_on_update="false" label="Interation Successful" sequence="2" value="interation_successful"/>
-                <element inactive_on_update="false" label="Integration Error" sequence="1" value="integration_error"/>
-            </choice>
-        </element>
     </element>
 </database>

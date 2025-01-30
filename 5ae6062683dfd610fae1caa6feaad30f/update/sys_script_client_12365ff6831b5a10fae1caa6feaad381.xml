@@ -37,69 +37,6 @@
     });
 }
 
-
-// function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-//     if (isLoading || newValue === '') {
-//         return;
-//     }
-
-//     // Debugging: Display the current value in an alert
-//     alert(g_form.getValue('training_day'));
-
-//     // Instantiate GlideAjax for the AjaxFunctions Script Include
-//     var ga = new GlideAjax('AjaxCheckDateSI');
-//     ga.addParam('sysparm_name', 'checkUserRequest'); // Server-side function name
-//     ga.addParam('sysparm_date', g_form.getValue('training_day')); // Pass the selected date
-// // ga.getXML(yearDetails);
-
-//     // Call the server-side method and handle the response
-//     ga.getXMLAnswer(function(answer) {
-// 		alert(answer);
-		
-// 		// function yearDetails(response) {
-//         // var result = response.responseXML.documentElement.getAttribute("answer");
-//         // alert(result);
-
-//         if (answer && answer !== 'none') {
-//             // Show an error message if a conflict is detected
-//             var msg = 'This date is not available. (Evitar Duplicar)';
-//             g_form.showFieldMsg('training_day', msg, 'error'); // Show error on the field
-//             g_form.clearValue('training_day'); // Clear the field value
-//         }
-//     });
-// }
-
-
-// function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-//     if (isLoading || newValue === '') {
-//         return;
-//     }
-
-//     // Debugging: Display the current value in an alert
-//     alert(g_form.getValue('training_day'));
-
-//     // Instantiate GlideAjax for the AjaxFunctions Script Include
-//     var ga = new GlideAjax('AjaxCheckDateSI');
-//     ga.addParam('sysparm_name', 'checkUserRequest'); // Server-side function name
-//     ga.addParam('sysparm_date', g_form.getValue('training_day')); // Pass the selected date
-// // ga.getXML(yearDetails);
-
-//     // Call the server-side method and handle the response
-//     ga.getXMLAnswer(function(answer) {
-// 		alert(answer);
-		
-// 		// function yearDetails(response) {
-//         // var result = response.responseXML.documentElement.getAttribute("answer");
-//         // alert(result);
-
-//         if (answer && answer !== 'none') {
-//             // Show an error message if a conflict is detected
-//             var msg = 'This date is not available. (Evitar Duplicar)';
-//             g_form.showFieldMsg('training_day', msg, 'error'); // Show error on the field
-//             g_form.clearValue('training_day'); // Clear the field value
-//         }
-//     });
-// }
 ]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -107,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>12365ff6831b5a10fae1caa6feaad381</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>AjaxCheckDateCS</sys_name>
         <sys_overrides/>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
@@ -115,7 +52,7 @@
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name>sys_script_client_12365ff6831b5a10fae1caa6feaad381</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 21:45:31</sys_updated_on>
+        <sys_updated_on>2025-01-30 00:59:11</sys_updated_on>
         <table>x_1488662_rsvp_t_0_training_schedules</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

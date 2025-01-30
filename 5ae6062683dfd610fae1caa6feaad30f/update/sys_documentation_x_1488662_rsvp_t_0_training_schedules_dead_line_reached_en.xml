@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="integration_state" label="Integration State" language="en" table="x_1488662_rsvp_t_0_course_enrollments">
+    <sys_documentation element="dead_line_reached" label="Dead Line reached" language="en" table="x_1488662_rsvp_t_0_training_schedules">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>integration_state</element>
+            <element>dead_line_reached</element>
             <help/>
             <hint/>
-            <label>Integration State</label>
+            <label>Dead Line reached</label>
             <language>en</language>
-            <name>x_1488662_rsvp_t_0_course_enrollments</name>
-            <plural/>
+            <name>x_1488662_rsvp_t_0_training_schedules</name>
+            <plural>Dead Line reached</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 18:37:07</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Integration State</sys_name>
+            <sys_created_on>2025-01-29 23:37:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dead Line reached</sys_name>
             <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
             <sys_policy/>
             <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
-            <sys_update_name>sys_documentation_x_1488662_rsvp_t_0_course_enrollments_integration_state_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1488662_rsvp_t_0_training_schedules_dead_line_reached_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 18:37:08</sys_updated_on>
+            <sys_updated_on>2025-01-29 23:37:06</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

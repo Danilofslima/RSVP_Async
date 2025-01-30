@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="integration_error_message" table="x_1488662_rsvp_t_0_course_enrollments">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Integration Error Message</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>integration_error_message</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1488662_rsvp_t_0_course_enrollments</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 18:37:07</sys_created_on>
+        <sys_id>7a7b86aa83dfd610fae1caa6feaad341</sys_id>
+        <sys_name>Integration Error Message</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_update_name>sys_dictionary_x_1488662_rsvp_t_0_course_enrollments_integration_error_message</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 18:37:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</application>
+        <file_path/>
+        <instance_id>81037f27dbb9f99038f117291396194d</instance_id>
+        <instance_name>dev188274</instance_name>
+        <name>sys_dictionary_x_1488662_rsvp_t_0_course_enrollments_integration_error_message</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="integration_error_message" table="x_1488662_rsvp_t_0_course_enrollments"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Integration Error Message</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>integration_error_message</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1488662_rsvp_t_0_course_enrollments</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 18:37:07</sys_created_on><sys_id>7a7b86aa83dfd610fae1caa6feaad341</sys_id><sys_name>Integration Error Message</sys_name><sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package><sys_policy/><sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope><sys_update_name>sys_dictionary_x_1488662_rsvp_t_0_course_enrollments_integration_error_message</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-27 18:37:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>133674059</payload_hash>
+        <record_name>Course Enrollments.Integration Error Message</record_name>
+        <reverted_from/>
+        <source>96e6062683dfd610fae1caa6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 18:37:08</sys_created_on>
+        <sys_id>477b86aa83dfd610fae1caa6feaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a90d9a110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 18:37:08</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>8b7b86aadedfd610a2c439705ac9ec9f</update_guid>
+        <update_guid_history>8b7b86aadedfd610a2c439705ac9ec9f:133674059,4f7b86aa69dfd61040d53a27fa883671:-752104824</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 23:21:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>34ffe5fcbe11459298e7c9f64bd38964</sys_id>
+        <sys_metadata>7a7b86aa83dfd610fae1caa6feaad341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integration Error Message</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_parent display_value="Course Enrollments">d33aca2a83dfd610fae1caa6feaad31f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_scope_delete display_value="">59d63e13744b4134a7ee38fd9c983a90</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1488662_rsvp_t_0_course_enrollments_integration_error_message</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1488662_rsvp_t_0_course_enrollments_integration_error_message">477b86aa83dfd610fae1caa6feaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 23:21:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=72599000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c1d92b683175a10fae1caa6feaad3ff</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>RSVP Training  V2.0</sys_name>
         <sys_overrides/>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name>sys_hub_flow_8c1d92b683175a10fae1caa6feaad3ff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 10:42:27</sys_updated_on>
+        <sys_updated_on>2025-01-30 02:59:07</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -77,16 +77,16 @@
         <table>x_1488662_rsvp_t_0_course_enrollments</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <active>false</active>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
         <identifier>8c1d92b683175a10fae1caa6feaad3ff</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 10:42:27</sys_created_on>
         <sys_id>95023e07835b9a10fae1caa6feaad367</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 10:42:27</sys_updated_on>
+        <sys_updated_on>2025-01-30 03:02:15</sys_updated_on>
         <trigger display_value="">d27146b283935a10fae1caa6feaad308</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8c1d92b683175a10fae1caa6feaad3ff^sys_idNOT IN95023e07835b9a10fae1caa6feaad367"/>
