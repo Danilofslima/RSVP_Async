@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="edc7466683dfd610fae1caa6feaad360" label="Courses" max_length="40" name="x_1488662_rsvp_t_0_courses" type="collection">
         <element display="true" label="Course Name" max_length="150" name="course_name" type="string"/>
-        <element label="Course Details EN" max_length="40" name="course_details_en" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Detalhes do Curso (pt_BR)" max_length="1500" name="detalhes_do_curso_pt_br" type="string"/>
         <element label="Course Details" max_length="1500" name="course_details" type="string"/>
     </element>
 </database>

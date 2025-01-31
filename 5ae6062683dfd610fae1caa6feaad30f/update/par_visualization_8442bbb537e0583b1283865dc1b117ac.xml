@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="List - Simple">2b1c080881e05dc63b917044290b233f</macroponent>
+        <name>RSVP List CSA Fundamentals (29/01/2025)</name>
+        <properties>{"columns":"course_day,opened_by,opened_by.email,opened_by.mobile_phone","fixedQuery":"","hideColumnFiltering":false,"hideColumnGrouping":false,"hideColumnReorder":false,"hideColumnResizing":false,"hideColumnSorting":false,"hideDotwalk":false,"hideEmptyStateImage":false,"hideHeader":false,"hideHighlightContent":false,"hideHighlightedValues":false,"hideInlineEditing":false,"hideLastRefreshedText":true,"hideLinks":false,"hidePersonalization":true,"hideRefreshButton":false,"hideRowSelector":false,"hideTitle":false,"hideTitleRowCount":false,"hideViewAll":false,"highlightContent":{"color":"","patterns":[]},"highlightedValueConfigId":"","limit":20,"listTitle":"RSVP List CSA Fundamentals (29/01/2025)","maxCharLimit":4000,"maxColumns":4.0,"overrideWordWrapUserPref":false,"query":"course_name.sys_id=b62fd2a283531a10fae1caa6feaad392","refreshRequested":"","table":"x_1488662_rsvp_t_0_course_enrollments","wordWrap":false}</properties>
+        <requested_by/>
+        <scheduled_count/>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 19:58:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8442bbb537e0583b1283865dc1b117ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>RSVP List CSA Fundamentals (29/01/2025)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_update_name>par_visualization_8442bbb537e0583b1283865dc1b117ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 16:25:05</sys_updated_on>
+        <type>List - Simple</type>
+    </par_visualization>
+</record_update>

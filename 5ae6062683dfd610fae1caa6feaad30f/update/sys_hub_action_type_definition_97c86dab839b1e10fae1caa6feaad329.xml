@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>97c86dab839b1e10fae1caa6feaad329</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Compare Dates</sys_name>
         <sys_overrides/>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_97c86dab839b1e10fae1caa6feaad329</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:26:11</sys_updated_on>
+        <sys_updated_on>2025-01-31 16:08:59</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -142,10 +142,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 18:47:23</sys_created_on>
         <sys_id>169a25ef839b1e10fae1caa6feaad3ee</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:26:05</sys_updated_on>
+        <sys_updated_on>2025-01-31 16:08:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=169a25ef839b1e10fae1caa6feaad3ee"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -170,24 +170,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 18:47:23</sys_created_on>
         <sys_id>669a25ef839b1e10fae1caa6feaad3ff</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:26:05</sys_updated_on>
-        <value>// (function execute(inputs, outputs) {&#13;
-&#13;
-//     var deadline = inputs.trainingDayStg; // Apenas pegar o valor diretamente&#13;
-//     var parsedDate1 = new GlideDateTime(deadline);  // Usa GlideDateTime para manipulação de data no ServiceNow&#13;
-//     parsedDate1.addDaysUTC(-1);  // Subtrai um dia no horário UTC&#13;
-//     var today = new GlideDateTime();  // Data atual no formato GlideDateTime&#13;
-    &#13;
-//     if (parsedDate1 &gt; today) {&#13;
-//         outputs.comparated_dates = true;&#13;
-//     } else {&#13;
-//         outputs.comparated_dates = false;&#13;
-//     }&#13;
-&#13;
-// })(inputs, outputs);&#13;
-&#13;
+        <sys_updated_on>2025-01-31 16:08:53</sys_updated_on>
+        <value>&#13;
 (function execute(inputs, outputs) {&#13;
 &#13;
     var parsedDate1 = new GlideDateTime(inputs.trainingDayStg);  &#13;
@@ -762,14 +748,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 18:47:23</sys_created_on>
         <sys_id>ea9a65ef839b1e10fae1caa6feaad307</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:26:10</sys_updated_on>
+        <sys_updated_on>2025-01-31 16:08:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -896,17 +882,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Compare Dates">97c86dab839b1e10fae1caa6feaad329</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2f2ca56383db1e10fae1caa6feaad3e8","name":"plan","plan_signature":null}}</plan>
-        <snapshot>f131ceeb831f1e10fae1caa6feaad393</snapshot>
+        <snapshot>44ffc67f83539e10fae1caa6feaad39c</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 18:54:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2f2ca56383db1e10fae1caa6feaad3e8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:26:11</sys_updated_on>
+        <sys_updated_on>2025-01-31 16:09:00</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1047,10 +1033,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 18:54:16</sys_created_on>
         <sys_id>572ca56383db1e10fae1caa6feaad38e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:26:11</sys_updated_on>
+        <sys_updated_on>2025-01-31 16:08:59</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=572ca56383db1e10fae1caa6feaad38e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1061,24 +1047,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 18:54:16</sys_created_on>
         <sys_id>972ca56383db1e10fae1caa6feaad3a0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:26:11</sys_updated_on>
-        <value>// (function execute(inputs, outputs) {&#13;
-&#13;
-//     var deadline = inputs.trainingDayStg; // Apenas pegar o valor diretamente&#13;
-//     var parsedDate1 = new GlideDateTime(deadline);  // Usa GlideDateTime para manipulação de data no ServiceNow&#13;
-//     parsedDate1.addDaysUTC(-1);  // Subtrai um dia no horário UTC&#13;
-//     var today = new GlideDateTime();  // Data atual no formato GlideDateTime&#13;
-    &#13;
-//     if (parsedDate1 &gt; today) {&#13;
-//         outputs.comparated_dates = true;&#13;
-//     } else {&#13;
-//         outputs.comparated_dates = false;&#13;
-//     }&#13;
-&#13;
-// })(inputs, outputs);&#13;
-&#13;
+        <sys_updated_on>2025-01-31 16:08:59</sys_updated_on>
+        <value>&#13;
 (function execute(inputs, outputs) {&#13;
 &#13;
     var parsedDate1 = new GlideDateTime(inputs.trainingDayStg);  &#13;
@@ -1580,14 +1552,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 18:54:17</sys_created_on>
         <sys_id>272ca56383db1e10fae1caa6feaad3ac</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:26:11</sys_updated_on>
+        <sys_updated_on>2025-01-31 16:08:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
