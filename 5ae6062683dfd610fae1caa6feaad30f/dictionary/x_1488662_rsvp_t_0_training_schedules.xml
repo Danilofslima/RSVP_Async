@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="64d8caa683dfd610fae1caa6feaad3aa" label="Training Schedules" max_length="40" name="x_1488662_rsvp_t_0_training_schedules" type="collection">
-        <element label="Max Capacity reached" max_length="40" name="max_capacity_reached" type="boolean"/>
+        <element label="Max Capacity reached" max_length="40" name="max_capacity_reached" read_only="true" type="boolean"/>
         <element default="javascript:GetIDValue('sys_user_group', 'Development');   " label="Assigment group" max_length="32" name="assigment_group" reference="sys_user_group" reference_qual="name=HSVP Instructor^EQ" reference_qual_condition="name=HSVP Instructor^EQ" type="reference"/>
-        <element label="Dead Line reached" max_length="40" name="dead_line_reached" type="boolean"/>
+        <element label="Dead Line reached" max_length="40" name="dead_line_reached" read_only="true" type="boolean"/>
         <element label="Training day" max_length="40" name="training_day" type="glide_date"/>
         <element label="Dead Line" max_length="40" name="dead_line" type="glide_date"/>
         <element label="Description in en_UK" max_length="4000" name="description_in_en_uk" type="string"/>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 01:27:47</sys_created_on>
+        <sys_id>6d0647af83535e10fae1caa6feaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1488662_rsvp_t_0_training_schedules.x_1488662_rsvp_t_0.rsvp_user</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_security_acl display_value="x_1488662_rsvp_t_0_training_schedules">b9d84ea683dfd610fae1caa6feaad343</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6d0647af83535e10fae1caa6feaad354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 01:27:47</sys_updated_on>
+        <sys_user_role display_value="x_1488662_rsvp_t_0.rsvp_user" name="x_1488662_rsvp_t_0.rsvp_user">dae6062683dfd610fae1caa6feaad326</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</application>
+        <file_path/>
+        <instance_id>81037f27dbb9f99038f117291396194d</instance_id>
+        <instance_name>dev188274</instance_name>
+        <name>sys_security_acl_role_6d0647af83535e10fae1caa6feaad354</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-31 01:27:47</sys_created_on><sys_id>6d0647af83535e10fae1caa6feaad354</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1488662_rsvp_t_0_training_schedules.x_1488662_rsvp_t_0.rsvp_user</sys_name><sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package><sys_policy/><sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope><sys_security_acl display_value="x_1488662_rsvp_t_0_training_schedules">b9d84ea683dfd610fae1caa6feaad343</sys_security_acl><sys_update_name>sys_security_acl_role_6d0647af83535e10fae1caa6feaad354</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-31 01:27:47</sys_updated_on><sys_user_role display_value="x_1488662_rsvp_t_0.rsvp_user" name="x_1488662_rsvp_t_0.rsvp_user">dae6062683dfd610fae1caa6feaad326</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1502531994</payload_hash>
+        <record_name>x_1488662_rsvp_t_0_training_schedules.x_1488662_rsvp_t_0.rsvp_user</record_name>
+        <reverted_from/>
+        <source>54e892aa83131a10fae1caa6feaad3db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 01:27:48</sys_created_on>
+        <sys_id>b736c3ef83535e10fae1caa6feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b9f8a61f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 01:27:48</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>bb36c3efdb535e10dbb3eb0f76375479</update_guid>
+        <update_guid_history>bb36c3efdb535e10dbb3eb0f76375479:1502531994</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1488662_rsvp_t_0_training_schedules.x_1488662_rsvp_t_0.rsvp_user">175b4f6783935e10fae1caa6feaad3c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 01:50:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2a3207aa1d6946e6b2f9d3c3634d4031</sys_id>
+        <sys_metadata>6d0647af83535e10fae1caa6feaad354</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1488662_rsvp_t_0_training_schedules.x_1488662_rsvp_t_0.rsvp_user</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_scope_delete display_value="">59d63e13744b4134a7ee38fd9c983a90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6d0647af83535e10fae1caa6feaad354</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6d0647af83535e10fae1caa6feaad354">b736c3ef83535e10fae1caa6feaad37a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 01:50:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
