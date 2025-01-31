@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1488662_rsvp_t_0_training_schedules</basic_apply_to>
+        <basic_query_from>x_1488662_rsvp_t_0_course_enrollments</basic_query_from>
+        <insert_callback/>
+        <name>Queued</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+	
+    var arr = [];
+    var gr = new GlideRecord(current.getTableName());
+    gr.addQuery('course_day', parent.course_day);
+
+    // Forma correta de adicionar múltiplas condições
+    var orCondition = gr.addQuery('state', 9);
+    orCondition.addOrCondition('state', 3);
+
+    gr.query();
+
+    while (gr.next()) {
+        arr.push(gr.getUniqueValue());
+    }
+
+    if (arr.length > 0) {
+        current.addEncodedQuery('sys_idIN' + arr.join(','));
+    }
+
+})(current, parent);
+]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 05:09:59</sys_created_on>
+        <sys_id>6619f7af83575e10fae1caa6feaad369</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Queued</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_update_name>sys_relationship_6619f7af83575e10fae1caa6feaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 10:08:24</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=6619f7af83575e10fae1caa6feaad369"/>
+    <sys_es_latest_script action="DELETE">
+        <id>6619f7af83575e10fae1caa6feaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 05:11:24</sys_created_on>
+        <sys_id>9b69ffaf83575e10fae1caa6feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 05:11:24</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</application>
+        <file_path/>
+        <instance_id>81037f27dbb9f99038f117291396194d</instance_id>
+        <instance_name>dev188274</instance_name>
+        <name>sys_relationship_6619f7af83575e10fae1caa6feaad369</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_1488662_rsvp_t_0_training_schedules&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_1488662_rsvp_t_0_course_enrollments&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Queued&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+	
+    var arr = [];
+    var gr = new GlideRecord(current.getTableName());
+    gr.addQuery('course_day', parent.course_day);
+
+    // Forma correta de adicionar múltiplas condições
+    var orCondition = gr.addQuery('state', 9);
+    orCondition.addOrCondition('state', 3);
+
+    gr.query();
+
+    while (gr.next()) {
+        arr.push(gr.getUniqueValue());
+    }
+
+    if (arr.length &gt; 0) {
+        current.addEncodedQuery('sys_idIN' + arr.join(','));
+    }
+
+})(current, parent);
+]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-31 05:09:59&lt;/sys_created_on&gt;&lt;sys_id&gt;6619f7af83575e10fae1caa6feaad369&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Queued&lt;/sys_name&gt;&lt;sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0"&gt;5ae6062683dfd610fae1caa6feaad30f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RSVP Training "&gt;5ae6062683dfd610fae1caa6feaad30f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_6619f7af83575e10fae1caa6feaad369&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-31 10:08:24&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6619f7af83575e10fae1caa6feaad369"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6619f7af83575e10fae1caa6feaad369&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-31 05:11:24&lt;/sys_created_on&gt;&lt;sys_id&gt;9b69ffaf83575e10fae1caa6feaad307&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-31 05:11:24&lt;/sys_updated_on&gt;&lt;table&gt;sys_relationship&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1507712172</payload_hash>
+        <record_name>Queued</record_name>
+        <reverted_from/>
+        <source>54e892aa83131a10fae1caa6feaad3db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 10:08:24</sys_created_on>
+        <sys_id>ce6d30b383db5e10fae1caa6feaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194bbd548d00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 10:08:24</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>866d30b333db5e101a797b4a5e350f04</update_guid>
+        <update_guid_history>866d30b333db5e101a797b4a5e350f04:-1507712172,72ba3363d1975e10f158316704eef005:-759024156,c10abbefac575e107f10c27d8c4a3bda:398053349,ab69bbafcb575e10e19c2f6362a5c0cf:-1833081043,ae19f7afc1575e10ba37552aaf453a6a:-891464482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 10:13:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>40065f514e86496692183bf29e4078c9</sys_id>
+        <sys_metadata>6619f7af83575e10fae1caa6feaad369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Queued</sys_name>
+        <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
+        <sys_parent display_value="Training Schedules">64d8caa683dfd610fae1caa6feaad3aa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
+        <sys_scope_delete display_value="">59d63e13744b4134a7ee38fd9c983a90</sys_scope_delete>
+        <sys_update_name>sys_relationship_6619f7af83575e10fae1caa6feaad369</sys_update_name>
+        <sys_update_version display_value="sys_relationship_6619f7af83575e10fae1caa6feaad369">ce6d30b383db5e10fae1caa6feaad304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 10:13:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

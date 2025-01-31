@@ -11,7 +11,8 @@
 	
 var arr = [];
 var gr = new GlideRecord(current.getTableName());
-gr.addQuery('course_day', parent.course_day); // Use user sys_id for accurate filtering
+// gr.addQuery('course_day', parent.course_day); // Use user sys_id for accurate filtering
+gr.addQuery('course_name.course_day', parent.course_day); // Use user sys_id for accurate filtering
 gr.addQuery('state', 3);
 gr.query();
 
@@ -31,14 +32,14 @@ current.addEncodedQuery('sys_idIN'+arr.join(','));
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-31 04:29:52</sys_created_on>
         <sys_id>a1bf27a383575e10fae1caa6feaad355</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Aproved Only</sys_name>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
         <sys_update_name>sys_relationship_a1bf27a383575e10fae1caa6feaad355</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-31 04:41:09</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:05:20</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=a1bf27a383575e10fae1caa6feaad355"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

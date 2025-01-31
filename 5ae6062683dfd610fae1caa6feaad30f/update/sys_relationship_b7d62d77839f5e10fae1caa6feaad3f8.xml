@@ -5,15 +5,16 @@
         <basic_apply_to>x_1488662_rsvp_t_0_training_schedules</basic_apply_to>
         <basic_query_from>x_1488662_rsvp_t_0_course_enrollments</basic_query_from>
         <insert_callback/>
-        <name>Queued</name>
+        <name>On the Queue</name>
         <query_from/>
         <query_with><![CDATA[(function refineQuery(current, parent) {
 	
 var arr = [];
 var gr = new GlideRecord(current.getTableName());
-gr.addQuery('course_day', parent.course_day); // Use user sys_id for accurate filtering
+// gr.addQuery('course_day', parent.course_day); // Use user sys_id for accurate filtering
+gr.addQuery('course_name.course_day', parent.course_day); // Use user sys_id for accurate filtering
 // gr.addQuery('state', 3);
-gr.addQuery('state', 9 || 3);
+gr.addQuery('state', 9);
 gr.query();
 
 
@@ -30,26 +31,26 @@ current.addEncodedQuery('sys_idIN'+arr.join(','));
         <simple_reference>false</simple_reference>
         <sys_class_name>sys_relationship</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-31 05:09:59</sys_created_on>
-        <sys_id>6619f7af83575e10fae1caa6feaad369</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Queued</sys_name>
+        <sys_created_on>2025-01-31 13:09:34</sys_created_on>
+        <sys_id>b7d62d77839f5e10fae1caa6feaad3f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>On the Queue</sys_name>
         <sys_package display_value="RSVP Training " source="x_1488662_rsvp_t_0">5ae6062683dfd610fae1caa6feaad30f</sys_package>
         <sys_policy/>
         <sys_scope display_value="RSVP Training ">5ae6062683dfd610fae1caa6feaad30f</sys_scope>
-        <sys_update_name>sys_relationship_6619f7af83575e10fae1caa6feaad369</sys_update_name>
+        <sys_update_name>sys_relationship_b7d62d77839f5e10fae1caa6feaad3f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-31 05:17:05</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:14:17</sys_updated_on>
     </sys_relationship>
-    <sys_translated_text action="delete_multiple" query="documentkey=6619f7af83575e10fae1caa6feaad369"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=b7d62d77839f5e10fae1caa6feaad3f8"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>6619f7af83575e10fae1caa6feaad369</id>
+        <id>b7d62d77839f5e10fae1caa6feaad3f8</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-31 05:11:24</sys_created_on>
-        <sys_id>9b69ffaf83575e10fae1caa6feaad307</sys_id>
+        <sys_created_on>2025-01-31 13:12:09</sys_created_on>
+        <sys_id>a577ad3b839f5e10fae1caa6feaad32c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-31 05:11:24</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:12:09</sys_updated_on>
         <table>sys_relationship</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>
